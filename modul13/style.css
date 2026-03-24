@@ -1,0 +1,44 @@
+a:link{
+    color: rgb(255, 0, 0);
+}
+a:visited{
+    color: rgb(0, 255, 106);
+}
+a:hover{
+    color: rgb(234, 0, 255);
+}
+a:active{
+    color: aquamarine;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    border: 2px solid green;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+}
+ol{
+    list-style-type: upper-roman;
+    background-color: aqua;
+    padding: 10px;
+}
+ol li{
+    background-color: rgb(0, 17, 255);
+    padding: 10px;
+    margin-left: 30px;
+}
+td,th{
+    border: 1px solid black;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+}
+tbody tr:nth-child(odd){
+    background-color: blue;
+}
+tbody tr:nth-child(even){
+    background-color: red;
+}
