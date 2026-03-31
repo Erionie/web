@@ -1,0 +1,31 @@
+article p{
+background-color: blue;
+color: white;
+padding: 20px;
+}
+article > p{
+   background-color: red;
+}
+article > h1{
+  background-color: aquamarine;
+}
+article ~p{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+}
+article + p{
+    background-color: orange;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid green;
+}
+input:in-range{
+     border: 2px solid green;
+}
+input:out-of-range{
+     border: 2px solid red;
+}
