@@ -88,4 +88,27 @@ padding: 14px 16px;
     display: table;
     clear: both;
 }
+#vertical-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: darkgreen;
+    width:25%;
+    position: fixed;
+    height: 100%;
+}
+#vertical-menu li a{
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#vertical-menu li a.active{
+    background-color: rgb(201, 97, 97); 
+}
+#vertical-menu li a:hover:not(.active){
+    background-color: rgb(201, 97, 97);
+}
+
 
