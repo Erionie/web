@@ -1,0 +1,37 @@
+body{
+    counter-reset: number;
+}
+
+h2::before{
+    counter-increment: number;
+    content: counter(number);
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 5px 12px;
+    color: brown;
+    margin: 10px;
+}
+
+:root{
+    --primary-color:#1efa51;
+    --secondary-color:#ff0000;
+    --padding:20px;
+}
+
+.vars{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding:var(--padding);
+}
+
+.rounded{
+    display: flex;
+}
+
+.rounded #example-one{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url(foto.jpg);
+}
