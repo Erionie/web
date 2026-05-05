@@ -35,3 +35,17 @@ h2::before{
     border-radius: 20px;
     background: url(foto.jpg);
 }
+.rounded #example-tow{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 10px;
+    background-color: bisque;   
+}
+.rounded #example-three{
+    margin: 10opx;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px/50px;
+    background-color: bisque;   
+}

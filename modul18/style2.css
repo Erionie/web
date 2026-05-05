@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50px;
+    transition: background 3s;
+}
+p{
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+}
+div:hover{
+    background-color: blue;
+}
