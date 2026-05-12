@@ -1,0 +1,30 @@
+.contenier{
+    display: flex;
+    background-color: lightblue;
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* justify-content:space-around; */
+    height: 400px;
+    align-items:center;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; 
+    align-content: space-around; */
+}
+.contenier div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+.contenier div:nth-child(2){
+    order:3;
+    height: 100px;
+}
+.contenier div:nth-child(1){
+    align-self: flex-end;
+    height: 40px;
+} 
+.contenier div:nth-child(3){
+    align-self: flex-end;
+    height: 70px;
+} 
