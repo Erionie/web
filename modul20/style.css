@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 #section-1{
     background-color: blueviolet;
     height: 600px;
@@ -23,4 +27,70 @@ nav ul li a{
 nav ul li .active{
     background-color: blueviolet;
     border-radius: 5px;
+}
+.main-heading{
+    
+    text-align: center;
+    margin-top: 148px;
+}
+
+.main-heading h1{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.main-heading a{
+    color: white;
+    padding: 25px 85px;
+    font-size: 18px;
+    background-color:orange;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+
+
+}
+#section-2{
+    background-color: #17c2a4;
+    min-height: 600px;
+    color: white;
+
+}
+.title-box{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+.title-box h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-size: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.services-box{
+    display: flex;
+    margin top:80px;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+.service{
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.service h3{
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.service p{
+    font-size: 16px;
 }
