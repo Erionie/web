@@ -2,32 +2,39 @@ body{
     padding: 0;
     margin: 0;
 }
+
 #section-1{
     background-color: blueviolet;
     height: 600px;
 }
+
 .contenier{
     margin-left: auto;
     margin-right: auto;
     height: 100%;
 }
+
 header{
     display: flex;
     justify-content: space-around;
     padding: 55px;
 }
+
 nav ul li{
     display: inline-block;
     padding: 10px 16px;
 }
+
 nav ul li a{
     text-decoration: none;
     color: white;
 }
+
 nav ul li .active{
     background-color: blueviolet;
     border-radius: 5px;
 }
+
 .main-heading{
     
     text-align: center;
@@ -40,6 +47,7 @@ nav ul li .active{
     margin-bottom: 60px;
     font-weight: bold;
 }
+
 .main-heading a{
     color: white;
     padding: 25px 85px;
@@ -48,22 +56,22 @@ nav ul li .active{
     text-decoration: none;
     border-radius: 5px;
     text-transform: uppercase;
-
-
-
 }
+
 #section-2{
     background-color: #17c2a4;
     min-height: 600px;
     color: white;
 
 }
+
 .title-box{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
 }
+
 .title-box h2{
     margin-top: 0;
     margin-bottom: 10px;
@@ -72,6 +80,7 @@ nav ul li .active{
     border-radius: 5px;
     text-transform: uppercase;
 }
+
 .services-box{
     display: flex;
     margin top:80px;
@@ -79,18 +88,95 @@ nav ul li .active{
     margin-right:auto;
     width:80%;
 }
+
 .service{
     width: 24%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
 .service h3{
     margin-top: 60px;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .service p{
     font-size: 16px;
+}
+
+#section-3{
+    background-color: #3c5499;
+    min-height: 800px;
+    color: white;
+}
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.from-row{
+    display: flex;
+}
+
+input[type=text], input[type=email]{
+    height: 56px;
+    width: 46%;
+}
+
+input[type=text], input[type=email], textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #273a71;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: none;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+input[ type="submit"]{
+    color: white;
+    background-color: #30bae7;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 5px;
+    border: none;
+}
+.big-buton{
+    padding: 25px 85px;
+    color: white;
+}
+footer{
+    background-color: #344b8e;
+}
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }
