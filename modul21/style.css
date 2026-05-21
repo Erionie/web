@@ -1,0 +1,23 @@
+@media(min-width:500px){
+    body{
+        background-color: blue;
+        color: white;
+        font-size: large;
+    }
+}
+@media(max-width:500px){
+    body{
+        background-color: red;
+        color:black;
+    }
+}
+@media(min-width:600px) and ( max-width:900px){
+    img{
+        display: none;
+    }
+}
+@media(min-width:600px){
+    p{
+        column-count: 2;
+    }
+}
