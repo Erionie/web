@@ -41,6 +41,12 @@ var u=74;
 console.log(t!=u);
 
 var name="erion";
-var lastnane="klinaku";
+var lastname="klinaku";
 var fullname=name + "" + lastname;
 console.log(fullname);
+
+var age=17;
+ console.log(age >=15 &&  age<=65); //duhet te dya te jene te sakta
+
+var age=17;
+console.log(age >=18 ||  age<=65); //duhet te jete vetem njera e sakt 
